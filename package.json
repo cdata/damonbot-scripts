@@ -1,0 +1,16 @@
+{
+  "author": "Chris Joel <chris@cloudflare.com> (http://scriptolo.gy)",
+  "name": "damonbot-scripts",
+  "description": "These are Damonbot's behavior scripts",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cdata/damonbot-scripts.git"
+  },
+  "engines": {
+    "node": "~0.6"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
