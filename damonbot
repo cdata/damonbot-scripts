@@ -1,0 +1,9 @@
+#!/bin/bash
+
+directory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+export HUBOT_HIPCHAT_JID="17714_76381@chat.hipchat.com"
+export HUBOT_HIPCHAT_NAME="Damonbot Rodríguez"
+export HUBOT_HIPCHAT_PASSWORD="$1"
+
+$directory/hubot -n damonbot -a hipchat -d
