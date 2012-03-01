@@ -14,3 +14,7 @@ module.exports = (robot) ->
 
         setTimeout arguments.callee, 86400000 + (Math.random * 172800000)
       )()
+
+  robot.hear /\(╯‵Д′\)╯彡┻━┻/i, (msg) ->
+
+    msg.send "┬──┬ ノ( ゜-゜ノ)"
