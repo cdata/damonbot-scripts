@@ -18,3 +18,7 @@ module.exports = (robot) ->
   robot.hear /\(╯‵Д′\)╯彡┻━┻/i, (msg) ->
 
     msg.send "┬──┬ ノ( ゜-゜ノ)"
+
+  robot.hear /arise.*chicken/i, (msg) ->
+
+    msg.send "Arise!"
